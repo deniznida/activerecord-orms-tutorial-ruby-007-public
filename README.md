@@ -70,7 +70,7 @@ Retrieve a Student from the database by id:
 Student.find(1)
 ```
 
-Find by name, or any attribute
+Find by name, or any attribute:
 
 ```ruby
 Student.find_by(name: 'Jon')
@@ -123,7 +123,7 @@ Create, connect to, and manipulate a SQLite database using ActiveRecord.
 
 1) We're going to be using the activerecord gem to create a mapping between our database and model.
 
-2) Take a look at the Gemfile in this directory. You can use that one. Be sure to run `bundle install`.
+2) Take a look at the Gemfile in this directory. Be sure to run `bundle install`.
 
 ## Migrations
 
