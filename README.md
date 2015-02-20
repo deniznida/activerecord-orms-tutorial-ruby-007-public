@@ -185,9 +185,9 @@ No point in having a table that has no columns in it, so lets add a few:
 class CreateArtists < ActiveRecord::Migration
   def change
     create_table :artists do |t|
-      t.string :name,
-      t.string :genre,
-      t.integer :age,
+      t.string :name
+      t.string :genre
+      t.integer :age
       t.string :hometown
     end
   end
